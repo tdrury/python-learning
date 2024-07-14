@@ -1,0 +1,13 @@
+### GET index
+GET http://localhost:5000/
+
+###
+GET http://localhost:5000/login
+
+### GET user
+GET http://localhost:5000/user/tim
+
+### GET user - with script
+GET http://localhost:5000/user/<script>alert("bad")</script>
+
+###
